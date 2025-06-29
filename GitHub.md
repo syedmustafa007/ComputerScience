@@ -19,3 +19,5 @@ GitHub is a version control tool that is used to collaborate with teams, share c
 - `git reset HEAD~1`: Deletes recent commit
 - `git push -u <REPO_LINK> main`: Push a commit to Github.
 - `git pull <REPO_LINK> main`: Pull all commits from Github to linux. 
+
+## Github Examples
