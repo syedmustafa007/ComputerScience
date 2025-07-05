@@ -9,9 +9,10 @@ GitHub is a version control tool that is used to collaborate with teams, share c
 - Commits: A commit is used to finalize changes that will be sent to GitHub. A commit also has a message.
 - Push: A push is an operation that sends a commit to Github.
 - Pull: A pull is an operation that pulls commits from Github to linux. 
+- .git Directory: The .git folder contains all the information that is necessary for your project in version control and all the information about commits, remote repository address, etc. All of them are present in this folder. It also contains a log that stores your commit history so that you can roll back to history.
 
 ## GitHub commands
-- `git init`: This command is used to convert a linux folder into a local git repository.
+- `git init`: This command is used to convert a linux folder into a local git repository. When you run this command .git file is created.
 - `git add <file_name>`: Stage files into local Git repository. Example `git add Sofrware.md`
 - `git status`: Check status of added files
 - `git commit -m "message"`: Commit added files with a message
@@ -19,7 +20,7 @@ GitHub is a version control tool that is used to collaborate with teams, share c
 - `git reset HEAD~1`: Deletes recent commit
 - `git push -u <REPO_LINK> main`: Push a commit to Github.
 - `git pull <REPO_LINK> main`: Pull all commits from Github to linux. 
-
+- `git diff` : Shows the differences and changes you have made in your project.
 ## **Github Examples**
 ```
 root@Dragonator:~/mustafa/Computer Science# git status
